@@ -6,7 +6,7 @@ use lpm.lpm_components.all;
 entity g53_color_matches is 
 port (P1, P2, P3, P4,
 		G1, G2, G3, G4  : in std_logic_vector (2 downto 0);
-		num_exact_matches, np1o,np2o,np3o,np4o,np5o,np6o,
+		num_exact_matches,
 		num_color_matches : out std_logic_vector(2 downto 0));
 end g53_color_matches;
 
@@ -67,10 +67,5 @@ sum5 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(dataa=>partial_sum4, datab
 sub1 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(add_sub=>'0', dataa=>full_sum, datab=>temp_num_exact_matches, result=>num_color_matches);
 
 num_exact_matches<=temp_num_exact_matches;
-np1o<=np1;
-np2o<=np2;
-np3o<=np3;
-np4o<=np4;
-np5o<=np5;
-np6o<=np6;
+
 end implementation;

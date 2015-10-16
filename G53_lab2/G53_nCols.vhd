@@ -6,7 +6,6 @@ use lpm.lpm_components.all;
 
 entity g53_nCols is
 port(	P4, P3, P2, P1 : in std_logic_vector (2 downto 0);
-		eq_out : out std_logic_vector (7 downto 0);
 		N6, N5, N4, N3, N2, N1 : out std_logic_vector (2 downto 0));
 end g53_nCols;
 
@@ -61,6 +60,5 @@ col3: g53_num1s port map (X=>color_C ,num1s=>N3);
 col4: g53_num1s port map (X=>color_D ,num1s=>N4);
 col5: g53_num1s port map (X=>color_E ,num1s=>N5);
 col6: g53_num1s port map (X=>color_F ,num1s=>N6);
-eq_out<=eq1;
 
 end implementation;
