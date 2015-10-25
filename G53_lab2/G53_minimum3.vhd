@@ -35,8 +35,8 @@ gt : G53_gt3 port map (A=>N, B=>M, AgtB=>NgtM);
 NltM <= not (NeqM or NgtM);
 
 with NltM select
-	min <= N when '1',
-			 M when '0',
-			 "000" when others;
+	min <=  N when '1',
+			M when '0',
+			"000" when others;
 
 end implementation;

@@ -57,13 +57,13 @@ min_gate5 : g53_minimum3 port map(N=>np5, M=>ng5, min=>min5);
 min_gate6 : g53_minimum3 port map(N=>np6, M=>ng6, min=>min6);
 
 -- perform the sum
-sum1 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(dataa=>min1, 			datab=>min2, result=>partial_sum1);
+sum1 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(dataa=>min1, 		   datab=>min2, result=>partial_sum1);
 sum2 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(dataa=>partial_sum1, datab=>min3, result=>partial_sum2);
 sum3 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(dataa=>partial_sum2, datab=>min4, result=>partial_sum3);
 sum4 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(dataa=>partial_sum3, datab=>min5, result=>partial_sum4);
 sum5 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(dataa=>partial_sum4, datab=>min6, result=>full_sum);
 
--- substrace ne
+-- subtract ne
 sub1 : lpm_add_sub generic map(LPM_WIDTH=>3) port map(add_sub=>'0', dataa=>full_sum, datab=>temp_num_exact_matches, result=>num_color_matches);
 
 num_exact_matches<=temp_num_exact_matches;
