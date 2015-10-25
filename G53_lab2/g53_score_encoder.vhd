@@ -28,7 +28,7 @@ begin
 			when "000010" => score_code <= "0010";
 			when "000011" => score_code <= "0001";
 			when "000100" => score_code <= "0000";
-			when others => score_code <= "UUUU";
+			when others => score_code <= "1111";
 		end case;
 	end process;
 end implementation;
