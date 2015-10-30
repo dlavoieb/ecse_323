@@ -12,42 +12,44 @@ entity g53_possibility_table is
     TC_LAST : out std_logic; -- last count flag
     TM_ADDR : out std_logic_vector(11 downto 0);
     TM_OUT : out std_logic); -- table memory output
-  );
 end entity ; -- g53_possibility_table
 
 architecture impl of g53_possibility_table is
 
   signal table : unsigned(4196 downto 0) ;
   signal TC1, TC2, TC3, TC4 : unsigned(2 downto 0) ;
-
 begin
 
 table_counter : process( CLK, TC_RST, TC_EN )
 begin
-  if (Clock'event and Clock='1' and TC_EN = '1') then
+  if (CLK'event and CLK='1' and TC_EN = '1') then
+    TC_LAST <= '0';
     if (TC_RST = '1') then
       TC1 <= (others => '0');
       TC2 <= (others => '0');
       TC3 <= (others => '0');
       TC4 <= (others => '0');
+
+    elsif ((TC4 & TC3 & TC2 & TC1) = "101101101101") then
+      TC_LAST <= '1';
+
     elsif (TC_RST = '0') then
       TC1 <= (TC1+1) mod 6;
-      if (TC1 = 0) then
+      if (TC1 = 5) then
         TC2 <= (TC2 + 1) mod 6;
-        if (TC2 = 0) then
+        if (TC2 = 5) then
           TC3 <= (TC3 + 1) mod 6;
-          if (TC3 = 0) then
+          if (TC3 = 5) then
             TC4 <= TC4 + 1;
           end if ;
         end if ;
       end if ;
-
-      -- TC += 1
-
-    end if ;
-
-
+		
+    end if ; -- reset
+	 
   end if ; -- clock edge
 end process ; -- table_counter
+
+TM_ADDR <= std_logic_vector(TC4 & TC3 & TC2 & TC1);
 
 end architecture ; -- impl
