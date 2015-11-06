@@ -67,9 +67,20 @@ BEGIN
     );
     
 CLK <= not CLK after 20  ns; 
-TC_EN <= '1';
 init : process
 begin
+
+    TC_EN <= '1';
+    TC_RST <= '1';
+    TM_EN <= '1';
+    TM_IN <= '1';
+    wait for 40 ns;
+    TC_RST <= '0';
+    wait for 200 ns; 
+    TC_EN <= '0';
+    wait for 200 ns;
+
+    TC_EN <= '1';
     TC_RST <= '1';
     TM_EN <= '1';
     TM_IN <= '1';

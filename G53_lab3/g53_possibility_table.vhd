@@ -24,7 +24,7 @@ table_counter : process( CLK, TC_RST, TC_EN, TM_EN, TM_IN )
 variable TC : std_logic_vector(11 downto 0) ;
 begin
 
-  if (CLK'event and CLK='1' and TC_EN = '1') then
+  if (CLK'event and CLK='1') then
     
 	 TC := std_logic_vector(TC4 & TC3 & TC2 & TC1);
     if (TM_EN = '1') then
@@ -44,7 +44,7 @@ begin
     elsif ((TC4 & TC3 & TC2 & TC1) = "101101101101") then
       TC_LAST <= '1';
 
-    elsif (TC_RST = '0') then
+    elsif (TC_EN = '1') then
       TC1 <= (TC1+1) mod 6;
       if (TC1 = 5) then
         TC2 <= (TC2 + 1) mod 6;
