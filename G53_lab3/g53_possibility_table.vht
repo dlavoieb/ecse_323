@@ -66,29 +66,36 @@ BEGIN
     TM_OUT => TM_OUT
     );
     
-CLK <= not CLK after 5 ns; 
+CLK <= not CLK after 20  ns; 
 TC_EN <= '1';
 init : process
 begin
+    TC_RST <= '1';
+    TM_EN <= '1';
+    TM_IN <= '1';
+    wait for 40 ns;
+    TC_RST <= '0';
+    wait for 52000 ns;
+    
+    TC_RST <= '1';
+    TM_EN <= '0';
+    wait for 40 ns;
+    TC_RST <= '0';
+    wait for 52000 ns;
+     
      TC_RST <= '1';
-     TM_EN <= '1';
-	  TM_IN <= '1';
-	  wait for 12 ns;
-     TC_RST <= '0';
-	  TM_IN <= '0';
-	  wait for 10 ns;
-	  TM_IN <= '1';
-	  wait for 10 ns;
-	  TM_IN <= '0';
-	  wait for 10 ns;
-	  TM_IN <= '1';
-	  wait for 10 ns;
-     TC_RST <= '1';
-	  TM_EN <= '0';
-	  wait for 20 ns;
-	  TC_RST <= '0';
-
+    TM_EN <= '1';
+    TM_IN <= '0';
+    wait for 40 ns;
+    TC_RST <= '0';
+    wait for 52000 ns;
+    
+    TC_RST <= '1';
+    TM_EN <= '0';
+    wait for 40 ns;
+    TC_RST <= '0';
+     
 WAIT;
-end process ; -- init                                     
-                                 
+end process ; -- init
+
 END g53_possibility_table_arch;
