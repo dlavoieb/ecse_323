@@ -32,7 +32,7 @@ END g53_possibility_table_vhd_tst;
 ARCHITECTURE g53_possibility_table_arch OF g53_possibility_table_vhd_tst IS
 -- constants                                                 
 -- signals                                                   
-SIGNAL CLK : STD_LOGIC := '0';
+SIGNAL CLOCK : STD_LOGIC := '0';
 SIGNAL TC_EN : STD_LOGIC;
 SIGNAL TC_LAST : STD_LOGIC;
 SIGNAL TC_RST : STD_LOGIC;
@@ -56,7 +56,7 @@ BEGIN
     i1 : g53_possibility_table
     PORT MAP (
 -- list connections between master ports and signals
-    CLK => CLK,
+    CLK => CLOCK,
     TC_EN => TC_EN,
     TC_LAST => TC_LAST,
     TC_RST => TC_RST,
@@ -66,7 +66,7 @@ BEGIN
     TM_OUT => TM_OUT
     );
     
-CLK <= not CLK after 20  ns; 
+CLOCK <= not CLOCK after 20  ns; 
 init : process
 begin
 

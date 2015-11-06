@@ -87,14 +87,6 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity G53_lab1
 -- Compiling architecture bdf_type of G53_lab1
 
-} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_num1s.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_num1s.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity g53_num1s
--- Compiling architecture g53_num1s_impl of g53_num1s
-
 } {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
@@ -104,13 +96,13 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity g53_color_matches
 -- Compiling architecture implementation of g53_color_matches
 
-} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vht
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_num1s.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_num1s.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity g53_possibility_table_vhd_tst
--- Compiling architecture g53_possibility_table_arch of g53_possibility_table_vhd_tst
+-- Compiling entity g53_num1s
+-- Compiling architecture g53_num1s_impl of g53_num1s
 
 } {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
@@ -120,6 +112,14 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package NUMERIC_STD
 -- Compiling entity g53_possibility_table
 -- Compiling architecture impl of g53_possibility_table
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_possibility_table_vhd_tst
+-- Compiling architecture g53_possibility_table_arch of g53_possibility_table_vhd_tst
 
 } {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vht
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
