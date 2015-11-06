@@ -1,37 +1,35 @@
-P:/ecse323/G53_lab1/G53_comp6.vhd {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab1/G53_comp6.vhd
+C:/Users/davidlb/Documents/ecse_323/G53_lab3/simulation/modelsim/g53_lab3.vho {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/simulation/modelsim/g53_lab3.vho
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity G53_comp6
--- Compiling architecture bdf_type of G53_comp6
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package cycloneii_atom_pack
+-- Loading package cycloneii_components
+-- Compiling entity g53_possibility_table
+-- Compiling architecture structure of g53_possibility_table
 
-} {} {}} P:/ecse323/G53_lab2/G53_num_matches.vhd {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab2/G53_num_matches.vhd
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_score_encoder.vhd {2 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_score_encoder.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity g53_num_matches
--- Compiling architecture implementation of g53_num_matches
+-- Compiling entity g53_score_encoder
+-- Compiling architecture implementation of g53_score_encoder
+** Warning: C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_score_encoder.vhd(16): (vcom-1186) Array type case expression must be of a locally static subtype.
 
-} {} {}} P:/ecse323/G53_lab1/simulation/modelsim/G53_sum1s.vht {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab1/simulation/modelsim/G53_sum1s.vht
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_score_encoder.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_score_encoder.vht
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity G53_sum1s_vhd_tst
--- Compiling architecture G53_sum1s_arch of G53_sum1s_vhd_tst
+-- Compiling entity g53_score_encoder_vhd_tst
+-- Compiling architecture g53_score_encoder_arch of g53_score_encoder_vhd_tst
 
-} {} {}} P:/ecse323/G53_lab2/G53_gt3.vhd {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab2/G53_gt3.vhd
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity g53_gt3
--- Compiling architecture implementation of g53_gt3
-
-} {} {}} P:/ecse323/G53_lab2/simulation/modelsim/g53_num_matches.vht {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab2/simulation/modelsim/g53_num_matches.vht
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_num_matches.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_num_matches.vht
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -39,41 +37,31 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity g53_num_matches_vhd_tst
 -- Compiling architecture g53_num_matches_arch of g53_num_matches_vhd_tst
 
-} {} {}} P:/ecse323/G53_lab2/g53_color_matches.vhd {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab2/g53_color_matches.vhd
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_num_matches.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_num_matches.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package LPM_COMPONENTS
--- Compiling entity g53_color_matches
--- Compiling architecture implementation of g53_color_matches
+-- Compiling entity g53_num_matches
+-- Compiling architecture implementation of g53_num_matches
 
-} {} {}} P:/ecse323/G53_lab2/g53_color_matches.vht {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab2/g53_color_matches.vht
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_comp6.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_comp6.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity g53_color_matches_vhd_tst
--- Compiling architecture g53_color_matches_arch of g53_color_matches_vhd_tst
+-- Compiling entity G53_comp6
+-- Compiling architecture bdf_type of G53_comp6
 
-} {} {}} P:/ecse323/G53_lab1/G53_num1s.vhd {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab1/G53_num1s.vhd
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_gt3.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_gt3.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity g53_num1s
--- Compiling architecture g53_num1s_impl of g53_num1s
+-- Compiling entity g53_gt3
+-- Compiling architecture implementation of g53_gt3
 
-} {} {}} P:/ecse323/G53_lab1/simulation/modelsim/G53_lab1.vht {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab1/simulation/modelsim/G53_lab1.vht
-Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity G53_lab1_vhd_tst
--- Compiling architecture G53_lab1_arch of G53_lab1_vhd_tst
-
-} {} {}} P:/ecse323/G53_lab2/G53_minimum3.vhd {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab2/G53_minimum3.vhd
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_minimum3.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_minimum3.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -82,7 +70,7 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity g53_minimum3
 -- Compiling architecture implementation of g53_minimum3
 
-} {} {}} P:/ecse323/G53_lab2/g53_minimum3.vht {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab2/g53_minimum3.vht
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_minimum3.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_minimum3.vht
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -91,12 +79,105 @@ Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling entity g53_minimum3_vhd_tst
 -- Compiling architecture g53_minimum3_arch of g53_minimum3_vhd_tst
 
-} {} {}} P:/ecse323/G53_lab1/G53_lab1.vhd {1 {vcom -work work -2002 -explicit P:/ecse323/G53_lab1/G53_lab1.vhd
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_lab1.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_lab1.vhd
 Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity G53_lab1
 -- Compiling architecture bdf_type of G53_lab1
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_num1s.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab1/G53_num1s.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_num1s
+-- Compiling architecture g53_num1s_impl of g53_num1s
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity g53_color_matches
+-- Compiling architecture implementation of g53_color_matches
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_possibility_table_vhd_tst
+-- Compiling architecture g53_possibility_table_arch of g53_possibility_table_vhd_tst
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_possibility_table.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity g53_possibility_table
+-- Compiling architecture impl of g53_possibility_table
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_color_matches.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_color_matches_vhd_tst
+-- Compiling architecture g53_color_matches_arch of g53_color_matches_vhd_tst
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_nCols.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_nCols.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity g53_nCols_vhd_tst
+-- Compiling architecture g53_nCols_arch of g53_nCols_vhd_tst
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_nCols.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/G53_nCols.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity g53_nCols
+-- Compiling architecture implementation of g53_nCols
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_mastermind_score.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_mastermind_score.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_mastermind_score_vhd_tst
+-- Compiling architecture g53_mastermind_score_arch of g53_mastermind_score_vhd_tst
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_mastermind_score.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab2/g53_mastermind_score.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_mastermind_score
+-- Compiling architecture implementation of g53_mastermind_score
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_7_segment_decoder.vht {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_7_segment_decoder.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity g53_7_segment_decoder_vhd_tst
+-- Compiling architecture g53_7_segment_decoder_arch of g53_7_segment_decoder_vhd_tst
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_7_segment_decoder.vhd {1 {vcom -work work -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab3/g53_7_segment_decoder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_7_segment_decoder
+-- Compiling architecture implementation of g53_7_segment_decoder
 
 } {} {}}
