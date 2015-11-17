@@ -17,7 +17,7 @@ architecture implementation of g53_7_segment_decoder is
     signal internal_segment : std_logic_vector(6 downto 0) ; 
     signal code_is_zero : std_logic;
     signal large_code : std_logic_vector(5 downto 0) ;
-	 signal temp_ripple : std_logic_vector (1 downto 0);
+     signal temp_ripple : std_logic_vector (1 downto 0);
 
 begin
     with code select
@@ -44,11 +44,11 @@ begin
     comp_code : G53_comp6 port map (A=>large_code, B=>"000000", AeqB=>code_is_zero);
     RippleBlank_Out <= RippleBlank_In and code_is_zero;
 
-	 temp_ripple <= RippleBlank_In & code_is_zero;
-	 with temp_ripple select
-		segments <=
-			"1111111" when "11",
-			internal_segment when others;
+    temp_ripple <= RippleBlank_In & code_is_zero;
+    with temp_ripple select
+        segments <=
+            "1111111" when "11",
+            internal_segment when others;
 
 end architecture ; -- implementation
 
