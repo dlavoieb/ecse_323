@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity g53_PrimeCounter is
   port (
     CLK, TC_EN: in std_logic;
-    mode: std_logic_vector(1 downto 0) ;
+    mode: in std_logic_vector(1 downto 0) ;
     cnt: out std_logic_vector(7 downto 0)
   ) ;
 end entity ; -- g53_PrimeCounter
