@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 504 256 672 272)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "mode[1..0]" (rect 5 0 59 12)(font "Arial" ))
+	(text "mode[1..0]" (rect 5 0 58 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect 504 240 672 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "TC_EN" (rect 5 0 41 12)(font "Arial" ))
+	(text "TC_EN" (rect 5 0 40 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -57,7 +57,7 @@ applicable agreement for further details.
 	(input)
 	(rect 304 80 472 96)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLK" (rect 5 0 27 12)(font "Arial" ))
+	(text "CLK" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -332,10 +332,5 @@ applicable agreement for further details.
 	(text "quotient[3..0]" (rect 1184 328 1248 340)(font "Arial" ))
 	(pt 1200 344)
 	(pt 1176 344)
-	(bus)
-)
-(connector
-	(pt 944 248)
-	(pt 896 248)
 	(bus)
 )

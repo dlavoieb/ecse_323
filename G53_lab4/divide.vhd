@@ -126,6 +126,6 @@ END SYN;
 -- Retrieval info: GEN_FILE: TYPE_NORMAL divide.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL divide.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL divide.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL divide.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL divide.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL divide_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: lpm
