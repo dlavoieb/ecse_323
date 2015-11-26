@@ -504,10 +504,6 @@ applicable agreement for further details.
 	(pt 1176 448)
 )
 (connector
-	(pt 1168 152)
-	(pt 1168 216)
-)
-(connector
 	(pt 1168 552)
 	(pt 1176 552)
 )
@@ -527,17 +523,17 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1168 392)
-	(pt 1168 448)
-)
-(connector
 	(pt 1168 448)
 	(pt 1168 552)
 )
 (connector
-	(text "TC_EN" (rect 1008 376 1043 388)(font "Arial" ))
-	(pt 928 392)
-	(pt 1168 392)
+	(pt 1168 152)
+	(pt 1168 216)
+)
+(connector
+	(pt 1168 216)
+	(pt 1168 448)
 )
 (junction (pt 1088 432))
 (junction (pt 1168 448))
+(junction (pt 1168 216))
