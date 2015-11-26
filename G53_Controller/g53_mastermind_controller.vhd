@@ -9,7 +9,8 @@ entity g53_mastermind_controller is
     READY, START, SC_CMP, TC_LAST, TM_OUT : in std_logic;
     GR_SEL, GR_LD, P_SEL, SR_LD, 
     SR_SEL, TM_IN, TM_EN ,TC_EN, 
-    TC_RST, AD_SEL, AR_LD, SOLVED : out std_logic
+    TC_RST, AD_SEL, AR_LD, SOLVED : out std_logic;
+    debug : out std_logic_vector(3 downto 0)
   ) ;
 end entity ; -- g53_mastermind_controller
 
@@ -21,9 +22,11 @@ architecture arch of g53_mastermind_controller is
     signal state : States;
 
     signal gr_sel_int : std_logic;
+    signal ar_ld_int : std_logic;
 
 begin
-    gr_sel_ff : DFF port map (d => gr_sel_int, clk => clk, q => gr_sel_int, clrn => '0', prn => '0');
+    GR_SEL <= gr_sel_int;
+    AR_LD <= ar_ld_int;
 
     fsm : process( CLK )
     begin
@@ -44,7 +47,7 @@ begin
                     TC_EN <= '1';
                     TC_RST <= '1';
                     AD_SEL <= '0';
-                    AR_LD <= '0';
+                    ar_ld_int <= '0';
                     SOLVED  <= '0';
 
                 when clear =>
@@ -55,12 +58,13 @@ begin
                         TC_EN <= '1';
                         TC_RST <= '0';
                         AD_SEL <= '0';
-                        AR_LD <= '0';
+                        ar_ld_int <= '0';
                         SOLVED  <= '0';
                         
                     elsif TC_LAST = '1' then
                         state <= guess;
-                        GR_SEL <= '1';
+                        gr_sel_int <= '1';
+
                         GR_LD <= '1';
                         P_SEL <= '0';
                         SR_LD <= '1';
@@ -70,7 +74,7 @@ begin
                         TC_EN <= '1';
                         TC_RST <= '1';
                         AD_SEL <= '1';
-                        AR_LD <= '0';
+                        ar_ld_int <= '0';
                         SOLVED  <= '0';
                     end if ;
 
@@ -80,7 +84,7 @@ begin
                     elsif READY = '1' then
                         state <= guess;
                     end if ;
-                    --GR_SEL <= ''; -- <-- this one needs figuring out
+
                     GR_LD <= '1';
                     P_SEL <= '0';
                     SR_LD <= '1';
@@ -90,7 +94,7 @@ begin
                     TC_EN <= '1';
                     TC_RST <= '1';
                     AD_SEL <= '1';
-                    AR_LD <= '0';
+                    ar_ld_int <= '0';
                     SOLVED  <= '0';
 
                 when guess_wait =>
@@ -109,12 +113,13 @@ begin
                     TC_EN <= '0';
                     TC_RST <= '0';
                     AD_SEL <= '0';
-                    AR_LD <= '0';
+                    ar_ld_int <= '0';
                     SOLVED  <= '0';
 
                 when cmp40 =>
                     if SC_CMP = '0' then
                         state <= read_location;
+                        gr_sel_int <= '0';
                         GR_LD <= '0';
                         SR_LD <= '0';
                         TM_IN <= '0';
@@ -122,7 +127,7 @@ begin
                         TC_EN <= '0';
                         TC_RST <= '0';
                         AD_SEL <= '0';
-                        AR_LD <= '1';
+                        ar_ld_int <= '1';
                         SOLVED  <= '0';
                     elsif SC_CMP = '1' then
                         state <= slvd;
@@ -139,7 +144,6 @@ begin
                         TC_EN <= '0';
                         TC_RST <= '0';
                         AD_SEL <= '0';
-                        --AR_LD <= '';  -- <-- this one needs figuring out
                         SOLVED  <= '0';
                     elsif TM_OUT = '1' then
                         state <= cmp_reg;
@@ -151,7 +155,6 @@ begin
                         TC_EN <= '0';
                         TC_RST <= '0';
                         AD_SEL <= '0';
-                        --AR_LD <= '';
                         SOLVED  <= '0';
                     end if ;
 
@@ -169,7 +172,6 @@ begin
                     TC_EN <= '0';
                     TC_RST <= '0';
                     AD_SEL <= '0';
-                    --AR_LD <= '';
                     SOLVED  <= '0';
 
                 when wr0 =>
@@ -181,11 +183,10 @@ begin
                         TC_EN <= '1';
                         TC_RST <= '0';
                         AD_SEL <= '0';
-                        --AR_LD <= '';
                         SOLVED  <= '0';
                     elsif TC_LAST = '1' then
                         state <= guess;
-                        GR_SEL <= '0';
+                        gr_sel_int <= '0';
                         GR_LD <= '1';
                         P_SEL <= '0';
                         SR_LD <= '1';
@@ -195,7 +196,6 @@ begin
                         TC_EN <= '1';
                         TC_RST <= '1';
                         AD_SEL <= '1';
-                        --AR_LD <= '';
                         SOLVED  <= '0';
                     end if ;
 
@@ -208,11 +208,10 @@ begin
                         TC_EN <= '1';
                         TC_RST <= '0';
                         AD_SEL <= '0';
-                        AR_LD <= '0';
+                        ar_ld_int <= '0';
                         SOLVED  <= '0';
                     elsif TC_LAST = '1' then
                         state <= guess;
-                        GR_SEL <= '0';
                         GR_LD <= '1';
                         P_SEL <= '0';
                         SR_LD <= '1';
@@ -222,7 +221,7 @@ begin
                         TC_EN <= '1';
                         TC_RST <= '1';
                         AD_SEL <= '1';
-                        AR_LD <= '0';
+                        ar_ld_int <= '0';
                         SOLVED  <= '0';
                     end if ;
 
@@ -231,7 +230,7 @@ begin
                         state <= slv_wait;
                     elsif START = '1' then
                         state <= slvd;
-                        GR_SEL <= '0';
+                        gr_sel_int <= '0';
                     end if ;
                     SOLVED <= '1';
 
@@ -247,7 +246,7 @@ begin
                         TM_EN  <= '1';
                         TC_EN <= '1';
                         TC_RST <= '1';
-                        AR_LD <= '0';
+                        ar_ld_int <= '0';
                         SOLVED  <= '0';
                     end if ;
 
@@ -256,4 +255,31 @@ begin
             end case ;
         end if ;
     end process ; -- fsm
+
+    debug_mapping : process( state )
+    begin
+        if state = init then    
+            debug <= "0000";
+        elsif state = clear then   
+            debug <= "0001";
+        elsif state = guess then   
+            debug <= "0010";
+        elsif state = guess_wait then  
+            debug <= "0011";
+        elsif state = cmp40 then   
+            debug <= "0100";
+        elsif state = slvd then    
+            debug <= "0101";
+        elsif state = slv_wait then    
+            debug <= "0110";
+        elsif state = read_location then   
+            debug <= "0111";
+        elsif state = cmp_reg then 
+            debug <= "1000";
+        elsif state = wr0 then 
+            debug <= "1001";
+        elsif state = wr1 then 
+            debug <= "1010";
+        end if; 
+    end process ; -- debug_mapping
 end architecture ; -- arch

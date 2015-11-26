@@ -1,0 +1,14 @@
+radix define mastermind_states {
+4'b0000 "init",
+4'b0001 "clear",
+4'b0010 "guess",
+4'b0011 "guess_wait",
+4'b0100 "cmp40",
+4'b0101 "slvd",
+4'b0110 "slv_wait",
+4'b0111 "read_location",
+4'b1000 "cmp_reg",
+4'b1001 "wr0",
+4'b1010 "wr1",
+-default binary
+}
