@@ -72,10 +72,23 @@ BEGIN
         wait for 30 ns;
         READY <= '1';
         wait for 30 ns;
+        SC_CMP <= '0';
+        wait for 60 ns;
+        TM_OUT <= '1';
+        wait for 10 ns;
+        SC_CMP <= '1';
+        TC_LAST <= '0';
+        wait for 20 ns;
+        SC_CMP <= '0';
+        wait for 50 ns;
+        TC_LAST <= '1';
+        wait for 20 ns;
         SC_CMP <= '1';
         wait for 30 ns;
-        START <= '1';
-
+        READY <= '0';
+        wait for 20 ns;
+        READY <= '1';
+        wait for 20 ns;
 
 
         WAIT;

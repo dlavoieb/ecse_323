@@ -196,6 +196,7 @@ begin
                         TC_EN <= '1';
                         TC_RST <= '1';
                         AD_SEL <= '1';
+                        ar_ld_int <= '0';
                         SOLVED  <= '0';
                     end if ;
 
