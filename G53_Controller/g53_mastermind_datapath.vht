@@ -17,7 +17,7 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "11/26/2015 13:30:39"
+-- Generated on "11/27/2015 15:56:30"
                                                             
 -- Vhdl Test Bench template for design  :  g53_mastermind_datapath
 -- 
@@ -39,15 +39,15 @@ SIGNAL EXT_PATTERN : STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL GR_LD : STD_LOGIC;
 SIGNAL GR_SEL : STD_LOGIC;
 SIGNAL P_SEL : STD_LOGIC;
-SIGNAL pin_name1 : STD_LOGIC;
-SIGNAL pin_name2 : STD_LOGIC;
-SIGNAL pin_name3 : STD_LOGIC;
-SIGNAL pin_name4 : STD_LOGIC;
-SIGNAL pin_name5 : STD_LOGIC;
-SIGNAL pin_name6 : STD_LOGIC;
 SIGNAL SC_CMP : STD_LOGIC;
 SIGNAL SR_LD : STD_LOGIC;
 SIGNAL SR_SEL : STD_LOGIC;
+SIGNAL TC_EN : STD_LOGIC;
+SIGNAL TC_LAST : STD_LOGIC;
+SIGNAL TC_RST : STD_LOGIC;
+SIGNAL TM_EN : STD_LOGIC;
+SIGNAL TM_IN : STD_LOGIC;
+SIGNAL TM_OUT : STD_LOGIC;
 COMPONENT g53_mastermind_datapath
 	PORT (
 	AD_LD : IN STD_LOGIC;
@@ -57,15 +57,15 @@ COMPONENT g53_mastermind_datapath
 	GR_LD : IN STD_LOGIC;
 	GR_SEL : IN STD_LOGIC;
 	P_SEL : IN STD_LOGIC;
-	pin_name1 : IN STD_LOGIC;
-	pin_name2 : IN STD_LOGIC;
-	pin_name3 : IN STD_LOGIC;
-	pin_name4 : IN STD_LOGIC;
-	pin_name5 : OUT STD_LOGIC;
-	pin_name6 : OUT STD_LOGIC;
 	SC_CMP : OUT STD_LOGIC;
 	SR_LD : IN STD_LOGIC;
-	SR_SEL : IN STD_LOGIC
+	SR_SEL : IN STD_LOGIC;
+	TC_EN : IN STD_LOGIC;
+	TC_LAST : OUT STD_LOGIC;
+	TC_RST : IN STD_LOGIC;
+	TM_EN : IN STD_LOGIC;
+	TM_IN : IN STD_LOGIC;
+	TM_OUT : OUT STD_LOGIC
 	);
 END COMPONENT;
 BEGIN
@@ -79,15 +79,15 @@ BEGIN
 	GR_LD => GR_LD,
 	GR_SEL => GR_SEL,
 	P_SEL => P_SEL,
-	pin_name1 => pin_name1,
-	pin_name2 => pin_name2,
-	pin_name3 => pin_name3,
-	pin_name4 => pin_name4,
-	pin_name5 => pin_name5,
-	pin_name6 => pin_name6,
 	SC_CMP => SC_CMP,
 	SR_LD => SR_LD,
-	SR_SEL => SR_SEL
+	SR_SEL => SR_SEL,
+	TC_EN => TC_EN,
+	TC_LAST => TC_LAST,
+	TC_RST => TC_RST,
+	TM_EN => TM_EN,
+	TM_IN => TM_IN,
+	TM_OUT => TM_OUT
 	);
 init : PROCESS                                               
 -- variable declarations                                     
