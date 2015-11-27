@@ -1,29 +1,3 @@
--- Copyright (C) 1991-2013 Altera Corporation
--- Your use of Altera Corporation's design tools, logic functions 
--- and other software and tools, and its AMPP partner logic 
--- functions, and any output files from any of the foregoing 
--- (including device programming or simulation files), and any 
--- associated documentation or information are expressly subject 
--- to the terms and conditions of the Altera Program License 
--- Subscription Agreement, Altera MegaCore Function License 
--- Agreement, or other applicable license agreement, including, 
--- without limitation, that your use is for the sole purpose of 
--- programming logic devices manufactured by Altera and sold by 
--- Altera or its authorized distributors.  Please refer to the 
--- applicable agreement for further details.
-
--- ***************************************************************************
--- This file contains a Vhdl test bench template that is freely editable to   
--- suit user's needs .Comments are provided in each section to help the user  
--- fill out necessary details.                                                
--- ***************************************************************************
--- Generated on "11/27/2015 15:56:30"
-                                                            
--- Vhdl Test Bench template for design  :  g53_mastermind_datapath
--- 
--- Simulation tool : ModelSim-Altera (VHDL)
--- 
-
 LIBRARY ieee;                                               
 USE ieee.std_logic_1164.all;                                
 
@@ -34,7 +8,7 @@ ARCHITECTURE g53_mastermind_datapath_arch OF g53_mastermind_datapath_vhd_tst IS
 -- signals                                                   
 SIGNAL AD_LD : STD_LOGIC;
 SIGNAL AD_SEL : STD_LOGIC;
-SIGNAL CLK : STD_LOGIC;
+SIGNAL CLK : STD_LOGIC := '0';
 SIGNAL EXT_PATTERN : STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL GR_LD : STD_LOGIC;
 SIGNAL GR_SEL : STD_LOGIC;
@@ -45,9 +19,13 @@ SIGNAL SR_SEL : STD_LOGIC;
 SIGNAL TC_EN : STD_LOGIC;
 SIGNAL TC_LAST : STD_LOGIC;
 SIGNAL TC_RST : STD_LOGIC;
+SIGNAL GUESS: STD_LOGIC_VECTOR(11 DOWNTO 0);
+SIGNAL TM_ADDR_OUT : STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL TM_EN : STD_LOGIC;
 SIGNAL TM_IN : STD_LOGIC;
 SIGNAL TM_OUT : STD_LOGIC;
+SIGNAL SCORE_CODE : std_logic_vector(3 downto 0) ;
+SIGNAL COLOR, EXACT : std_logic_vector(2 downto 0) ;
 COMPONENT g53_mastermind_datapath
 	PORT (
 	AD_LD : IN STD_LOGIC;
@@ -63,8 +41,13 @@ COMPONENT g53_mastermind_datapath
 	TC_EN : IN STD_LOGIC;
 	TC_LAST : OUT STD_LOGIC;
 	TC_RST : IN STD_LOGIC;
+    TM_ADDR_OUT : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
 	TM_EN : IN STD_LOGIC;
 	TM_IN : IN STD_LOGIC;
+    SCORE_CODE : OUT std_logic_vector(3 downto 0) ;
+    GUESS: OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
+    COLOR : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+    EXACT : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
 	TM_OUT : OUT STD_LOGIC
 	);
 END COMPONENT;
@@ -73,6 +56,8 @@ BEGIN
 	PORT MAP (
 -- list connections between master ports and signals
 	AD_LD => AD_LD,
+    COLOR => COLOR,
+    EXACT => EXACT,
 	AD_SEL => AD_SEL,
 	CLK => CLK,
 	EXT_PATTERN => EXT_PATTERN,
@@ -85,22 +70,45 @@ BEGIN
 	TC_EN => TC_EN,
 	TC_LAST => TC_LAST,
 	TC_RST => TC_RST,
+    TM_ADDR_OUT => TM_ADDR_OUT,
 	TM_EN => TM_EN,
 	TM_IN => TM_IN,
+    SCORE_CODE => SCORE_CODE,
+    GUESS => GUESS,
 	TM_OUT => TM_OUT
 	);
+
+    CLK <= not CLK after 10 ns;
 init : PROCESS                                               
 -- variable declarations                                     
 BEGIN                                                        
-        -- code that executes only once                      
+
+        -- compare external pattern to guess (0011) and check score against (4,0)
+        TC_EN <= '1';
+        TC_RST <= '1';
+        AD_SEL <= '0';
+        GR_SEL <= '1';
+        P_SEL <= '0';
+        GR_LD <= '1';
+        SR_LD <= '1';
+        SR_SEL <= '0';
+        -- first if external pattern is (0011)
+        EXT_PATTERN <= "000000001001";
+        wait for 40 ns;
+        -- next try with different external pattern
+        EXT_PATTERN <= "000000001011";
+        wait for 30 ns;
+        GR_LD <= '0';
+        SR_LD <= '0';
+        TC_RST <= '0';
+        P_SEL <= '1';
+        SR_SEL <= '1';
+
+
+
+
+
 WAIT;                                                       
 END PROCESS init;                                           
-always : PROCESS                                              
--- optional sensitivity list                                  
--- (        )                                                 
--- variable declarations                                      
-BEGIN                                                         
-        -- code executes for every event on sensitivity list  
-WAIT;                                                        
-END PROCESS always;                                          
+                                
 END g53_mastermind_datapath_arch;

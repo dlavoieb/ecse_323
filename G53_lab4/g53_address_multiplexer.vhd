@@ -14,7 +14,8 @@ architecture arch of g53_address_multiplexer is
 begin
     with sel select 
     address_out <= address0 when '0',
-                   address1 when '1';
+                   address1 when '1',
+                   "000000000000" when others;
 
 
 
