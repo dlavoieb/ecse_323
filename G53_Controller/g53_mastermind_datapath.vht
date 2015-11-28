@@ -19,13 +19,9 @@ SIGNAL SR_SEL : STD_LOGIC;
 SIGNAL TC_EN : STD_LOGIC;
 SIGNAL TC_LAST : STD_LOGIC;
 SIGNAL TC_RST : STD_LOGIC;
-SIGNAL GUESS: STD_LOGIC_VECTOR(11 DOWNTO 0);
-SIGNAL TM_ADDR_OUT : STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL TM_EN : STD_LOGIC;
 SIGNAL TM_IN : STD_LOGIC;
 SIGNAL TM_OUT : STD_LOGIC;
-SIGNAL SCORE_CODE : std_logic_vector(3 downto 0) ;
-SIGNAL COLOR, EXACT : std_logic_vector(2 downto 0) ;
 COMPONENT g53_mastermind_datapath
 	PORT (
 	AD_LD : IN STD_LOGIC;
@@ -41,13 +37,8 @@ COMPONENT g53_mastermind_datapath
 	TC_EN : IN STD_LOGIC;
 	TC_LAST : OUT STD_LOGIC;
 	TC_RST : IN STD_LOGIC;
-    TM_ADDR_OUT : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
 	TM_EN : IN STD_LOGIC;
 	TM_IN : IN STD_LOGIC;
-    SCORE_CODE : OUT std_logic_vector(3 downto 0) ;
-    GUESS: OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
-    COLOR : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
-    EXACT : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
 	TM_OUT : OUT STD_LOGIC
 	);
 END COMPONENT;
@@ -56,8 +47,6 @@ BEGIN
 	PORT MAP (
 -- list connections between master ports and signals
 	AD_LD => AD_LD,
-    COLOR => COLOR,
-    EXACT => EXACT,
 	AD_SEL => AD_SEL,
 	CLK => CLK,
 	EXT_PATTERN => EXT_PATTERN,
@@ -70,11 +59,8 @@ BEGIN
 	TC_EN => TC_EN,
 	TC_LAST => TC_LAST,
 	TC_RST => TC_RST,
-    TM_ADDR_OUT => TM_ADDR_OUT,
 	TM_EN => TM_EN,
 	TM_IN => TM_IN,
-    SCORE_CODE => SCORE_CODE,
-    GUESS => GUESS,
 	TM_OUT => TM_OUT
 	);
 
@@ -103,11 +89,6 @@ BEGIN
         TC_RST <= '0';
         P_SEL <= '1';
         SR_SEL <= '1';
-
-
-
-
-
 WAIT;                                                       
 END PROCESS init;                                           
                                 

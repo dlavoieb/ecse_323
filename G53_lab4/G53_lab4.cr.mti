@@ -1,0 +1,26 @@
+C:/Users/davidlb/Documents/ecse_323/G53_lab4/g53_PrimeCounter.vht {1 {vcom -work lab4 -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab4/g53_PrimeCounter.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_PrimeCounter_vhd_tst
+-- Compiling architecture g53_PrimeCounter_arch of g53_PrimeCounter_vhd_tst
+
+} {} {}} C:/Users/davidlb/Documents/ecse_323/G53_lab4/g53_PrimeCounter.vhd {1 {vcom -work lab4 -2002 -explicit C:/Users/davidlb/Documents/ecse_323/G53_lab4/g53_PrimeCounter.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity g53_PrimeCounter
+-- Compiling architecture arch of g53_PrimeCounter
+
+} {} {}} Y:/ecse_323/G53_Controller/g53_mastermind_controller.vht {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/g53_mastermind_controller.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_mastermind_controller_vhd_tst
+-- Compiling architecture arch of g53_mastermind_controller_vhd_tst
+
+} {} {}}

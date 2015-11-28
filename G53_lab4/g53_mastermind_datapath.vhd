@@ -14,7 +14,7 @@
 
 -- PROGRAM		"Quartus II 64-Bit"
 -- VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
--- CREATED		"Fri Nov 27 17:26:16 2015"
+-- CREATED		"Sat Nov 28 11:18:00 2015"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -39,12 +39,7 @@ ENTITY g53_mastermind_datapath IS
 		EXT_PATTERN :  IN  STD_LOGIC_VECTOR(11 DOWNTO 0);
 		SC_CMP :  OUT  STD_LOGIC;
 		TC_LAST :  OUT  STD_LOGIC;
-		TM_OUT :  OUT  STD_LOGIC;
-		COLOR :  OUT  STD_LOGIC_VECTOR(2 DOWNTO 0);
-		EXACT :  OUT  STD_LOGIC_VECTOR(2 DOWNTO 0);
-		GUESS :  OUT  STD_LOGIC_VECTOR(11 DOWNTO 0);
-		SCORE_CODE :  OUT  STD_LOGIC_VECTOR(3 DOWNTO 0);
-		TM_ADDR_OUT :  OUT  STD_LOGIC_VECTOR(11 DOWNTO 0)
+		TM_OUT :  OUT  STD_LOGIC
 	);
 END g53_mastermind_datapath;
 
@@ -126,7 +121,7 @@ COMPONENT g53_register_4_bits
 	);
 END COMPONENT;
 
-SIGNAL	guess_ALTERA_SYNTHESIZED :  STD_LOGIC_VECTOR(11 DOWNTO 0);
+SIGNAL	guess :  STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL	hidden :  STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_12 :  STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC_VECTOR(11 DOWNTO 0);
@@ -140,7 +135,6 @@ SIGNAL	SYNTHESIZED_WIRE_9 :  STD_LOGIC_VECTOR(3 DOWNTO 0);
 
 
 BEGIN 
-SCORE_CODE <= SYNTHESIZED_WIRE_14;
 
 
 
@@ -187,7 +181,7 @@ b2v_inst4 : g53_register_12_bits
 PORT MAP(clock => CLK,
 		 load => GR_LD,
 		 address_in => SYNTHESIZED_WIRE_7,
-		 address_out => guess_ALTERA_SYNTHESIZED);
+		 address_out => guess);
 
 
 b2v_inst5 : g53_comp4
@@ -201,16 +195,14 @@ PORT MAP(		 result => SYNTHESIZED_WIRE_3);
 
 
 b2v_inst7 : g53_mastermind_score
-PORT MAP(G1 => guess_ALTERA_SYNTHESIZED(2 DOWNTO 0),
-		 G2 => guess_ALTERA_SYNTHESIZED(5 DOWNTO 3),
-		 G3 => guess_ALTERA_SYNTHESIZED(8 DOWNTO 6),
-		 G4 => guess_ALTERA_SYNTHESIZED(11 DOWNTO 9),
+PORT MAP(G1 => guess(2 DOWNTO 0),
+		 G2 => guess(5 DOWNTO 3),
+		 G3 => guess(8 DOWNTO 6),
+		 G4 => guess(11 DOWNTO 9),
 		 P1 => hidden(2 DOWNTO 0),
 		 P2 => hidden(5 DOWNTO 3),
 		 P3 => hidden(8 DOWNTO 6),
 		 P4 => hidden(11 DOWNTO 9),
-		 color_match_score => COLOR,
-		 exact_match_score => EXACT,
 		 score_code => SYNTHESIZED_WIRE_14);
 
 
@@ -231,7 +223,5 @@ PORT MAP(sel => P_SEL,
 		 address1 => SYNTHESIZED_WIRE_13,
 		 address_out => hidden);
 
-GUESS <= guess_ALTERA_SYNTHESIZED;
-TM_ADDR_OUT <= hidden;
 
 END bdf_type;
