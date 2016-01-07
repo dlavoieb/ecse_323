@@ -1,0 +1,172 @@
+Y:/ecse_323/G53_Controller/const_0011.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/const_0011.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity const_0011
+-- Compiling architecture SYN of const_0011
+
+} {} {}} Y:/ecse_323/G53_Controller/register_12bits.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/register_12bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_12bits
+-- Compiling architecture SYN of register_12bits
+
+} {} {}} Y:/ecse_323/G53_lab2/G53_nCols.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab2/G53_nCols.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity g53_nCols
+-- Compiling architecture implementation of g53_nCols
+
+} {} {}} Y:/ecse_323/G53_lab2/G53_minimum3.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab2/G53_minimum3.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity g53_minimum3
+-- Compiling architecture implementation of g53_minimum3
+
+} {} {}} Y:/ecse_323/G53_Controller/register_4bits.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/register_4bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_4bits
+-- Compiling architecture SYN of register_4bits
+
+} {} {}} Y:/ecse_323/G53_Controller/lpm_mux_4bit.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/lpm_mux_4bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity lpm_mux_4bit
+-- Compiling architecture SYN of lpm_mux_4bit
+
+} {} {}} Y:/ecse_323/G53_Controller/g53_mastermind_controller.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/g53_mastermind_controller.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package dffeas_pack
+-- Loading package altera_primitives_components
+-- Compiling entity g53_mastermind_controller
+-- Compiling architecture arch of g53_mastermind_controller
+
+} {} {}} Y:/ecse_323/G53_Controller/g53_mastermind_controller.vht {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/g53_mastermind_controller.vht
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_mastermind_controller_vhd_tst
+-- Compiling architecture arch of g53_mastermind_controller_vhd_tst
+
+} {} {}} Y:/ecse_323/G53_lab4/g53_address_multiplexer.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab4/g53_address_multiplexer.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_address_multiplexer
+-- Compiling architecture arch of g53_address_multiplexer
+
+} {} {}} Y:/ecse_323/G53_lab2/g53_score_encoder.vhd {2 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab2/g53_score_encoder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_score_encoder
+-- Compiling architecture implementation of g53_score_encoder
+** Warning: Y:/ecse_323/G53_lab2/g53_score_encoder.vhd(16): (vcom-1186) Array type case expression must be of a locally static subtype.
+
+
+} {} {}} Y:/ecse_323/G53_Controller/g53_register_4_bits.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/g53_register_4_bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_register_4_bits
+-- Compiling architecture arch of g53_register_4_bits
+
+} {} {}} Y:/ecse_323/G53_lab1/G53_comp6.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab1/G53_comp6.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity G53_comp6
+-- Compiling architecture bdf_type of G53_comp6
+
+} {} {}} Y:/ecse_323/G53_lab2/G53_num_matches.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab2/G53_num_matches.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_num_matches
+-- Compiling architecture implementation of g53_num_matches
+
+} {} {}} Y:/ecse_323/G53_Controller/G53_comp4.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/G53_comp4.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity G53_comp4
+-- Compiling architecture bdf_type of G53_comp4
+
+} {} {}} Y:/ecse_323/G53_lab2/g53_mastermind_score.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab2/g53_mastermind_score.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_mastermind_score
+-- Compiling architecture implementation of g53_mastermind_score
+
+} {} {}} Y:/ecse_323/G53_Controller/const_40.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/const_40.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity const_40
+-- Compiling architecture SYN of const_40
+
+} {} {}} Y:/ecse_323/G53_Controller/g53_register_12_bits.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_Controller/g53_register_12_bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_register_12_bits
+-- Compiling architecture arch of g53_register_12_bits
+
+} {} {}} Y:/ecse_323/G53_lab1/G53_num1s.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab1/G53_num1s.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity g53_num1s
+-- Compiling architecture g53_num1s_impl of g53_num1s
+
+} {} {}} Y:/ecse_323/G53_lab2/g53_color_matches.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab2/g53_color_matches.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity g53_color_matches
+-- Compiling architecture implementation of g53_color_matches
+
+} {} {}} Y:/ecse_323/G53_lab3/g53_possibility_table.vhd {1 {vcom -work work -2002 -explicit Y:/ecse_323/G53_lab3/g53_possibility_table.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity g53_possibility_table
+-- Compiling architecture impl of g53_possibility_table
+
+} {} {}}

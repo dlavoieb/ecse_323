@@ -1,0 +1,1169 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ad",
+				"address_in"
+			],
+			[
+				"add",
+				"address_internal"
+			],
+			[
+				"a",
+				"address_internal"
+			],
+			[
+				"en",
+				"entarch	entity architecture"
+			],
+			[
+				"SIGNAL",
+				"signals"
+			],
+			[
+				"S",
+				"STD_LOGIC_VECTOR"
+			],
+			[
+				"TM",
+				"TM_ADDR_OUT"
+			],
+			[
+				"SR",
+				"SR_SEL"
+			],
+			[
+				"AD_",
+				"AD_SEL"
+			],
+			[
+				"TC_",
+				"TC_RST"
+			],
+			[
+				"address",
+				"address0"
+			],
+			[
+				"de",
+				"DEBIG"
+			],
+			[
+				"els",
+				"elsif	elsif"
+			],
+			[
+				"ar",
+				"ar_ld_int"
+			],
+			[
+				"gr",
+				"gr_sel_int"
+			],
+			[
+				"GR",
+				"GR_SEL"
+			],
+			[
+				"sl",
+				"slv_wait"
+			],
+			[
+				"s",
+				"solved"
+			],
+			[
+				"G",
+				"guess"
+			],
+			[
+				"wr",
+				"wr1"
+			],
+			[
+				"cm",
+				"cmp_reg"
+			],
+			[
+				"c",
+				"cmp_reg"
+			],
+			[
+				"TM_O",
+				"TM_OUT"
+			],
+			[
+				"re",
+				"read_location"
+			],
+			[
+				"rea",
+				"READY"
+			],
+			[
+				"gu",
+				"guess_wait"
+			],
+			[
+				"wh",
+				"when"
+			],
+			[
+				"g",
+				"guess"
+			],
+			[
+				"el",
+				"elsif	elsif"
+			],
+			[
+				"TC",
+				"TC_LAST"
+			],
+			[
+				"ent",
+				"entarch	entity architecture"
+			],
+			[
+				"q",
+				"quo_unsigned"
+			],
+			[
+				"qu",
+				"quotient"
+			],
+			[
+				"num",
+				"num_unsigned"
+			],
+			[
+				"m_",
+				"m_B"
+			],
+			[
+				"tc",
+				"fig:tc_en_tc_rst"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"se",
+				"fig:seg_pin"
+			],
+			[
+				"di",
+				"displays"
+			],
+			[
+				"Se",
+				"Seven"
+			],
+			[
+				"bf",
+				"bfigure	figure"
+			],
+			[
+				"la",
+				"Laplace"
+			],
+			[
+				"co",
+				"code_is_zero"
+			],
+			[
+				"A",
+				"AeqB"
+			],
+			[
+				"R",
+				"RippleBlank_Out"
+			],
+			[
+				"Ri",
+				"RippleBlank_In"
+			],
+			[
+				"compo",
+				"components"
+			],
+			[
+				"comp",
+				"completed"
+			],
+			[
+				"impleme",
+				"implementation"
+			],
+			[
+				"ta",
+				"table	Table"
+			],
+			[
+				"par",
+				"parametrized"
+			],
+			[
+				"compu",
+				"Computing"
+			],
+			[
+				"sun",
+				"subsection"
+			],
+			[
+				"Com",
+				"computation"
+			],
+			[
+				"mi",
+				"minimum"
+			],
+			[
+				"exa",
+				"exact"
+			],
+			[
+				"ma",
+				"matches"
+			],
+			[
+				"exatc",
+				"exact_matches_test"
+			],
+			[
+				"sec",
+				"second"
+			],
+			[
+				"radi",
+				"radius"
+			],
+			[
+				"an",
+				"angular"
+			],
+			[
+				"e",
+				"epsilon"
+			],
+			[
+				"theta_",
+				"theta_A"
+			],
+			[
+				"the",
+				"theta_B"
+			],
+			[
+				"it",
+				"item	Itemize"
+			],
+			[
+				"thet",
+				"theta	\\theta"
+			],
+			[
+				"times",
+				"times10"
+			],
+			[
+				"fi",
+				"fig:details"
+			],
+			[
+				"ca",
+				"caption"
+			],
+			[
+				"in",
+				"includegraphics"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fo",
+				"following"
+			],
+			[
+				"perio",
+				"periods"
+			],
+			[
+				"per",
+				"periods"
+			],
+			[
+				"N",
+				"N_B"
+			],
+			[
+				"F_x",
+				"F_x"
+			],
+			[
+				"cons",
+				"constrain"
+			],
+			[
+				"F_y",
+				"F_Y"
+			],
+			[
+				"W",
+				"W_B"
+			],
+			[
+				"theta",
+				"vartheta	\\vartheta"
+			],
+			[
+				"tan",
+				"tangential"
+			],
+			[
+				"tangen",
+				"tangential"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"nor",
+				"normal"
+			],
+			[
+				"tange",
+				"tangential"
+			],
+			[
+				"tang",
+				"tangent"
+			],
+			[
+				"eqna",
+				"eqnarray"
+			],
+			[
+				"eq",
+				"eqnarray"
+			],
+			[
+				"math",
+				"mathbf"
+			],
+			[
+				"Res",
+				"Research"
+			],
+			[
+				"My",
+				"mysocket"
+			],
+			[
+				"so",
+				"socket"
+			],
+			[
+				"mul",
+				"multicol"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"te",
+				"textwidth"
+			],
+			[
+				"BR",
+				"BR_DRIVE_PIN"
+			],
+			[
+				"BL",
+				"BL_DRIVE_PIN"
+			],
+			[
+				"MR",
+				"MR_DRIVE_PIN"
+			],
+			[
+				"ML",
+				"ML_DRIVE_PIN"
+			],
+			[
+				"FR",
+				"FR_DRIVE_PIN"
+			],
+			[
+				"FL",
+				"FL_ENABLE_PIN"
+			],
+			[
+				"LF",
+				"LF_servo_angle"
+			],
+			[
+				"spee",
+				"speed"
+			],
+			[
+				"ana",
+				"analogWrite	Arduino analogWrite"
+			],
+			[
+				"digital",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"digi",
+				"digitalWrite	Arduino digitalWrite"
+			],
+			[
+				"set",
+				"setPoints"
+			],
+			[
+				"dri",
+				"driveSubscriber"
+			],
+			[
+				"o",
+				"omnidirectionnelle"
+			],
+			[
+				"py",
+				"pylône"
+			],
+			[
+				"ante",
+				"antennes"
+			],
+			[
+				"perfor",
+				"performances"
+			],
+			[
+				"ba",
+				"bandwidth"
+			],
+			[
+				"dire",
+				"directionnelle"
+			],
+			[
+				"ver",
+				"verbatim"
+			],
+			[
+				"out",
+				"outlet"
+			],
+			[
+				"ele",
+				"electrocardiogram"
+			],
+			[
+				"sign",
+				"signal-to-noise"
+			],
+			[
+				"sho",
+				"shown"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"fig",
+				"figure	Figure"
+			],
+			[
+				"rec",
+				"rectifier"
+			],
+			[
+				"bri",
+				"full-bridge"
+			],
+			[
+				"aff",
+				"affordable"
+			],
+			[
+				"am",
+				"amplifier"
+			],
+			[
+				"amp",
+				"amplifier"
+			],
+			[
+				"ap",
+				"amplification"
+			],
+			[
+				"signa",
+				"signal"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/arduino-cli/arduino-cli.sublime-build",
+					""
+				],
+				[
+					"Packages/arduino-cli/arduino-cli.sublime-build",
+					"just build"
+				],
+				[
+					"Packages/arduino-cli/arduino-cli.sublime-build",
+					"build and upload"
+				]
+			],
+			[
+				"Packages/arduino-cli/arduino-cli.sublime-build",
+				"just build"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 165.0,
+		"last_filter": ":vhd",
+		"selected_items":
+		[
+			[
+				":vhd",
+				"Set Syntax: VHDL"
+			],
+			[
+				":push",
+				"Git: Push"
+			],
+			[
+				":pull",
+				"Git: Pull"
+			],
+			[
+				":vh",
+				"Set Syntax: VHDL"
+			],
+			[
+				"vhd",
+				"Set Syntax: VHDL"
+			],
+			[
+				":qui",
+				"Git: Quick Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				":inst",
+				"Package Control: Install Package"
+			],
+			[
+				":remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"push",
+				"git: push"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"diff",
+				"git: diff"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				":re",
+				"Package Control: Remove Package"
+			],
+			[
+				"com",
+				"Git: Quick Commit"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				":co",
+				"Git: Commit history"
+			],
+			[
+				":comm",
+				"Git: Commit history"
+			],
+			[
+				":ins",
+				"Package Control: Install Package"
+			],
+			[
+				"find",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"findk",
+				"FindKeyConflicts: All Key Maps to Quick Panel"
+			],
+			[
+				":pack",
+				"Package Control: List Packages"
+			],
+			[
+				":in",
+				"Package Control: Install Package"
+			],
+			[
+				":",
+				"View: Toggle Status Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				":ints",
+				"Package Control: Install Package"
+			],
+			[
+				":insta",
+				"Package Control: Install Package"
+			],
+			[
+				":pa",
+				"Package Control: Install Package"
+			],
+			[
+				":y",
+				"Set Syntax: YAML"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:ints",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 227.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/OSX Storage/repositories/ecse_323",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab2"
+	],
+	"file_history":
+	[
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_Controller/g53_mastermind_datapath.vht",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_Controller/g53_register_4_bits.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab4/g53_address_multiplexer.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_Controller/g53_mastermind_controller.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab4/g53_address_multiplexed.vht",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_Controller/g53_mastermind_controller.vht",
+		"/Volumes/OSX Storage/repositories/ecse_323/radix_state,txt.vht",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab4/g53_PrimeCounter.vhd",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/controller_output.sublime-snippet",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/vhdl_when.sublime-snippet",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/ieee.sublime-snippet",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab3/g53_possibility_table.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab4/g53_divide10.vhd",
+		"/Users/David/g53_divide10.vhd",
+		"/Volumes/OSX Storage/repositories/teensy-cmake/sketches/Teensy/Drive/CMakeLists.txt",
+		"/Volumes/OSX Storage/repositories/teensy-cmake/cmake/teensy-arm.toolchain.cmake",
+		"/Volumes/OSX Storage/repositories/teensy-cmake/cmake/Teensy.cmake",
+		"/Volumes/OSX Storage/Google Drive/Classes/ECSE 323/reports/lab3_report/lab3_report.tex",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab4/COMMIT: ecse_323",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab4/g53_PrimeCounter.vht",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/FindKeyConflicts/FindKeyConflicts.sublime-settings",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/OSX Storage/repositories/ecse_323/LICENSE",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Volumes/OSX Storage/repositories/teensy-cmake/TEST",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/GitGutter/Default (OSX).sublime-keymap",
+		"/Volumes/OSX Storage/repositories/teensy-cmake/sketches/Teensy/Drive/Drive/Drive.ino",
+		"/Volumes/OSX Storage/Google Drive/Classes/CIVE 281/Assignment8/Ass8.tex",
+		"/Volumes/OSX Storage/repositories/teensy-cmake/sketches/Teensy/USB_Keyboard/CMakeLists.txt",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab3/g53_7_segment_decoder.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/segments_radix.txt",
+		"/Users/David/def",
+		"/Volumes/OSX Storage/Google Drive/Classes/ECSE 306/Ass3/Ass3.tex",
+		"/Volumes/OSX Storage/repositories/arduino-cmake/cmake/Platform/Arduino.cmake",
+		"/Volumes/OSX Storage/repositories/arduino-cmake/cmake/ArduinoToolchain.cmake",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab2/G53_nCols.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab2/g53_score_encoder.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab2/g53_color_matches.vhd",
+		"/Volumes/OSX Storage/repositories/ecse_323/G53_lab2/G53_num_matches.vhd",
+		"/Volumes/OSX Storage/Google Drive/Classes/ECSE 323/lab2_report/lab2_report.tex",
+		"/Volumes/OSX Storage/Google Drive/Classes/CIVE 281/Assignment5/Ass5.tex",
+		"/Volumes/WININSTALL/ecse323/G53_lab1/G53_lab1.vhd",
+		"/Volumes/WININSTALL/ecse323/G53_lab1/G53_comp6.vhd",
+		"/Volumes/WININSTALL/ecse323/G53_lab1/G53_num1s.vhd",
+		"/Volumes/WININSTALL/ecse323/G53_lab1/simulation/modelsim/G53_sum1s.vht",
+		"/Volumes/WININSTALL/ecse323/G53_lab1/simulation/modelsim/G53_lab1.vht",
+		"/Users/David/reply.txt",
+		"/Volumes/OSX Storage/Google Drive/Classes/ECSE 323/lab1_report/lab1_report.tex",
+		"/Volumes/OSX Storage/VMs/SharedFolder/repositories/rover/catkin_ws/src/ahrs/src/ahrs_node.cpp",
+		"/Volumes/OSX Storage/VMs/SharedFolder/repositories/rover/catkin_ws/src/ahrs/msg/AhrsStatusMessage.msg",
+		"/Volumes/OSX Storage/Google Drive/Classes/ECSE 306/Ass2/Ass2.tex",
+		"/Volumes/OSX Storage/VMs/SharedFolder/repositories/rover/catkin_ws/src/ahrs/rosdoc.yaml",
+		"/Volumes/OSX Storage/VMs/SharedFolder/repositories/rover/catkin_ws/src/ahrs/doc/doxyfile.in",
+		"/Volumes/OSX Storage/repositories/LineRanger/cmake-modules/DoxygenHelper.cmake",
+		"/Volumes/OSX Storage/repositories/LineRanger/CMakeLists.txt",
+		"/Volumes/OSX Storage/VMs/SharedFolder/repositories/rover/catkin_ws/src/ahrs/CMakeLists.txt",
+		"/Volumes/OSX Storage/VMs/SharedFolder/repositories/rover/catkin_ws/src/ahrs/cmake-modules/DoxygenHelper.cmake",
+		"/Volumes/OSX Storage/VMs/SharedFolder/repositories/rover/catkin_ws/src/doc/doxyfile.in",
+		"/Volumes/OSX Storage/repositories/LineRanger/cmake-modules/TargetArch.cmake",
+		"/Volumes/OSX Storage/repositories/github api",
+		"/Volumes/OSX Storage/repositories/git_tutorial commands.txt",
+		"/Volumes/OSX Storage/Google Drive/Classes/CIVE 281/Assignment3/Ass3.tex",
+		"/Volumes/OSX Storage/Google Drive/Classes/ECSE 306/Ass1/Ass1.tex",
+		"/Volumes/OSX Storage/Google Drive/Classes/CIVE 281/Assignment2/Ass2.tex",
+		"/Volumes/OSX Storage/Google Drive/Classes/CIVE 281/Assignment1/document_template.tex",
+		"/Users/David/Downloads/Maple 18/18_02_crack/license.dat",
+		"/Users/David/Downloads/Maplesoft Maple 2015.1/crack/license.dat",
+		"/Library/Frameworks/Maple.framework/Versions/2015/license/license.dat",
+		"/Volumes/OSX Storage/Google Drive/Classes/CIVE 281/Assignment1/untitled.tex",
+		"/Volumes/OSX Storage/VMs/SharedFolder/rover/Arduino/deprecated/RS485/C code/FunctionPointers.c",
+		"/Users/David/Documents/IREQ/bandwidth_test/24juillet/test3.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/24juillet/test2.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/24juillet/bw_processed/bw_0724_142557.csv",
+		"/Users/David/Documents/IREQ/bandwidth_test/24juillet/bw_processed/bw_0724_143914.csv",
+		"/Users/David/Documents/IREQ/bandwidth_test/24juillet/bw_processed/bw_0724_140417.csv",
+		"/Users/David/Documents/IREQ/bandwidth_test/24juillet/test1.conf",
+		"/Users/David/Documents/IREQ/matlab_code/latex/Essais20juillet.tex",
+		"/Users/David/Documents/IREQ/matlab_code/latex/Essais22juillet_annotated.tex",
+		"/Users/David/.zprezto/modules/prompt/functions/prompt_mcgill_setup",
+		"/Users/David/.zprezto/modules/prompt/functions/prompt_agnoster_setup",
+		"/Users/David/.zshrc",
+		"/Users/David/.zsh_history",
+		"/Users/David/Documents/IREQ/matlab_code/latex/Essai8juillet-annotated.tex",
+		"/Users/David/Documents/IREQ/bandwidth_test/lev4/test1.conf",
+		"/Users/David/Documents/IREQ/matlab_code/Essai8juillet.m",
+		"/Users/David/Documents/IREQ/bandwidth_test/8juilLEV3/test5.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/8juilLEV3/test4.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/8juilLEV3/gpsLogs/gpsTest4.log",
+		"/Users/David/Documents/IREQ/bandwidth_test/8juilLEV3/test1.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/8juilLEV3/gpsLogs/gpsTest3.log",
+		"/Users/David/Documents/Arduino/Projects/SerialSwitcher/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/region-usage-json/CG.json",
+		"/Users/David/VMs/SharedFolder/rover/Arduino/OTS_Drive/OTS_Drive.ino",
+		"/Users/David/VMs/SharedFolder/rover/catkin_ws/src/control_systems/src/joystickread.py",
+		"/Users/David/VMs/SharedFolder/rover/catkin_ws/src/hci/config/joystick_profile.yaml",
+		"/Users/David/VMs/SharedFolder/rover/catkin_ws/src/hci/launch/hci.launch",
+		"/Users/David/repositories/rover/catkin_ws/src/control_systems/msg/SetPoints.msg",
+		"/Users/David/repositories/rover/Arduino/OTS_Drive/pins.h",
+		"/Users/David/repositories/rover/Arduino/OTS_Drive/OTS_Drive.ino",
+		"/Users/David/repositories/rover/Arduino/OTS_Drive/WheelAngles.ino",
+		"/Users/David/repositories/rover/Arduino/gps/gps.ino",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/arduino-cli.sublime-settings",
+		"/Users/David/VMs/SharedFolder/rover-2016/CMakeLists.txt",
+		"/Users/David/repositories/rover_2016/vendors/sbgCom/CMakeLists.txt",
+		"/Users/David/repositories/rover_2016/CMakeLists.txt",
+		"/Users/David/Documents/IREQ/python/gps_bw_merger.py",
+		"/Users/David/Documents/IREQ/matlab_code/LEV_2/document.m~",
+		"/Users/David/Documents/IREQ/matlab_code/LEV_2/document.m",
+		"/Users/David/Documents/IREQ/matlab_code/make_plots_11juin.m",
+		"/Users/David/Documents/IREQ/matlab_code/make_plots_15juin.m",
+		"/Users/David/Documents/IREQ/bandwidth_test/ssh_mikrotik",
+		"/Users/David/Documents/IREQ/matlab_code/latex/document_17_juin_anotated.tex",
+		"/Users/David/Documents/IREQ/matlab_code/latex/document_LE_1.tex",
+		"/Users/David/Documents/IREQ/bandwidth_test/17juin/test1.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/17juin/test2.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/17juin/test3.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/17juin/test4.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/17juin/test5.conf",
+		"/Users/David/Documents/IREQ/bandwidth_test/17juin/test6.conf",
+		"/Users/David/Google Drive/McGill Robotics 2015/Business Team/Sponsorship/Sponsor Plaques 2014/Letters/Mulit-Caisee_Thanks.tex",
+		"/Users/David/Documents/IREQ/latex/make_plots_v2_annotated.tex",
+		"/Users/David/Documents/IREQ/matlab_code/latex/make_plots_15juin.tex",
+		"/Users/David/Documents/IREQ/latex/make_plots_v2_annotated.pdf",
+		"/Users/David/Documents/IREQ/bandwidth_test/data/notes",
+		"/Users/David/Documents/IREQ/reports/make_plots_v2.tex",
+		"/Users/David/Music/songs/Ode au canot.txt"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"<current file>",
+			"this file",
+			"<open folders>",
+			"this file,<open folders>",
+			"this file",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"address",
+			"11",
+			"result : ",
+			"[0]",
+			"result => ",
+			"address_selected_ALTERA_SYNTHESIZED",
+			"\n         \n",
+			"<= \"",
+			"end if; \n        if",
+			"\n\n",
+			"\n",
+			",",
+			"AR_LD",
+			"AD_SEL",
+			"solved",
+			"$",
+			",",
+			"mode",
+			",",
+			"s3",
+			",",
+			"advan",
+			"ARDUINO_VERSION",
+			"teens",
+			"mega",
+			"#=============================================================================#",
+			"when",
+			"input",
+			"include_",
+			"include",
+			"\\frac{1}{2}bt^2)}",
+			"section",
+			":",
+			"??????",
+			"4in",
+			"_prompt_mcgill_pwd",
+			"\\end{par}",
+			"\\begin{par}",
+			"0708_110110",
+			"ç",
+			"ê",
+			"à",
+			"è",
+			"é",
+			"4in",
+			"4in]{doc",
+			"ù",
+			"ç",
+			"à",
+			"è",
+			"é",
+			"ê",
+			"à",
+			"è",
+			"é",
+			"3in",
+			"4in",
+			"\\end{par} \\vspace{1em}",
+			"\\begin{par}\n",
+			"même",
+			"é",
+			"è",
+			"à",
+			"ù",
+			"à",
+			"é",
+			"w",
+			"figure~\\ref",
+			"util",
+			"filter",
+			"        ",
+			"    ",
+			"&",
+			"\\\\",
+			"mcgill",
+			",mcgill,",
+			", mgcill,",
+			"section",
+			"prompt_dir",
+			"%~",
+			"shot",
+			"single",
+			"key_timer",
+			"ok_battery1_signal",
+			"Values::",
+			"exter",
+			" = 0;",
+			"uno",
+			"build.core",
+			"uno.build.core",
+			"invalid",
+			"uno",
+			"ARDUINO_DEFAULT_BOARD",
+			"Write",
+			"2A",
+			"0b",
+			"0A",
+			"09",
+			"08",
+			"07",
+			"06",
+			"05",
+			"04",
+			"03",
+			"02",
+			"buildReg00",
+			"int bin",
+			"[arn_",
+			"\\sub",
+			"#",
+			",",
+			"note",
+			"}\n\n@",
+			" </property>\n            <property name=\"maximum\">",
+			"QSpinBox",
+			"dock",
+			"QLineEdit",
+			",",
+			"case",
+			"while(!Serial.available()){delay(10);}\n    ",
+			"built",
+			"bit",
+			"break",
+			"case",
+			"RSVD",
+			"cyan",
+			"conc",
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mode_1",
+			"78:31:c1:b8:cf:3e",
+			"78:31:c1:b8:cf:3e\n78:31:c1:b8:cf:3e\n78:31:c1:b8:cf:3e",
+			"\\c{c}",
+			"\\^e",
+			"\\`a",
+			"\\`e",
+			"\\'e",
+			"8.5cm",
+			"8.5cm]{doc",
+			"\\`u",
+			"\\c{c}",
+			"\\`a",
+			"\\`e",
+			"\\'e",
+			"\\^e",
+			"\\`a",
+			"\\`e",
+			"\\'e",
+			"\\`e",
+			"\\`a",
+			"\\`u",
+			"\\`a",
+			"\\'e",
+			"{",
+			"create_connection",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 105.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 150.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "dsd.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/OSX Storage/Google Drive/Classes/ECSE 323/reports/lab3_report/lab3_report.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/OSX Storage/repositories/rover.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1114.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
